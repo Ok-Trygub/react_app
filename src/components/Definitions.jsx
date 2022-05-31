@@ -7,10 +7,12 @@ class Definitions extends React.Component {
 
         return data.map(item => {
             return (
-                <React.Fragment>
-                    <dt key={item.id}>{item.dt}</dt>
-                    <dd key={item.id}>{item.dd}</dd>
+                <React.Fragment key={item.id}>
+                    <dt>{item.dt}</dt>
+                    <dd>{item.dd}</dd>
                 </React.Fragment>
+
+
             )
         });
     }
