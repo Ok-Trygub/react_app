@@ -11,8 +11,6 @@ class Definitions extends React.Component {
                     <dt>{item.dt}</dt>
                     <dd>{item.dd}</dd>
                 </React.Fragment>
-
-
             )
         });
     }
